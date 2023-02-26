@@ -32,4 +32,6 @@ plt.clf()
 ```
 9. Create a new column in the dataframe called `log_fare` which has the natural logarithm of the `fare`. **HINT** use the `np.log()` function.
 10. Repeat exercises 8. and 9. using the `log_fare` column.
-11. 
+11. Drop `nan`s from columns `survived`, `age`, `fare`, `class`, `embark_town` and `who`.
+12. Fit a multiple linear regression with those variables, and print the results.
+13. Interpret the result of the linear regression. Which variables are important, and why?
