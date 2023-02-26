@@ -4,6 +4,8 @@ Before starting the exercises: load `pandas`, `numpy`, `seaborn`  and `statsmode
 
 Import pyplot using the `import matplotlib.pyplot as plt` command.
 
+Create a directory for the plots as in the class.
+
 ### Exercises 
 
 1. Load the dataset 'titanic' using the command `sns.load_dataset()` and save it the `df` variable.
